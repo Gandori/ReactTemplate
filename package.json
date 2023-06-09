@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "description": "frontend for pipelinetool",
+  "description": "frontend",
   "proxy": "http://Localhost:10000/",
   "scripts": {
     "build:prod": "webpack --config ./webpack.config.prod.js",
