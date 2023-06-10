@@ -8,8 +8,8 @@ module.exports = () =>
 
     const output = {
         folder: '../build',
-        css: 'static/css/[name].[contenthash:8].css',
-        js: 'static/js/[name].[contenthash:8].js',
+        css: 'static/css/[name].css',
+        js: 'static/js/[name].js',
     };
     const loader = {
         babel: 'babel-loader',
