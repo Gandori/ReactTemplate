@@ -1,0 +1,41 @@
+{
+    //editor
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "blink",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "monospace",
+    "editor.lineNumbers": "on",
+    "editor.fontWeight": "normal",
+    "editor.letterSpacing": 0,
+    "editor.lineHeight": 1.2,
+    "editor.autoClosingBrackets": "never",
+    "editor.matchBrackets": "always",
+    "editor.minimap.enabled": true,
+    "editor.minimap.autohide": false,
+    "editor.mouseWheelZoom": true,
+    "editor.padding.top": 0,
+    "editor.padding.bottom": 0,
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "all",
+    "editor.roundedSelection": true,
+    "editor.scrollbar.scrollByPage": true,
+    "editor.showUnused": true,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "off",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+        "source.fixAll": true
+    },
+    //Error Lens
+    "errorLens.fontWeight": "bold",
+    "errorLens.fontFamily": "monospace",
+    "errorLens.fontStyleItalic": false,
+    "errorLens.padding": "5",
+    "errorLens.borderRadius": "5px",
+    "errorLens.messageTemplate": "$message",
+    "errorLens.messageEnabled": true,
+    "errorLens.messageBackgroundMode": "line",
+    "errorLens.warningGutterIconColor": "#ff942f",
+    "errorLens.statusBarMessageType": "activeLine"
+}
