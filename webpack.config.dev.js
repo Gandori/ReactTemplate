@@ -7,7 +7,7 @@ module.exports = () =>
     const mode = 'development'
 
     const output = {
-        folder: '../build',
+        folder: './build',
         css: 'static/css/[name].css',
         js: 'static/js/[name].js',
     };
