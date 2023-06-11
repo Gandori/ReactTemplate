@@ -27,6 +27,9 @@ module.exports = () =>
             entry: {
                 main: './src/index.js'
             },
+            devServer: {
+                historyApiFallback: true,
+            },
             output: {
                 publicPath: '/',
                 path: path.resolve(__dirname, output.folder),
