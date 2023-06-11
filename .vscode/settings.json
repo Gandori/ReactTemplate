@@ -24,8 +24,14 @@
     "editor.wordWrap": "off",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true,
-        "source.fixAll": true
+      "source.organizeImports": true,
+      "source.fixAll": true
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     //Error Lens
     "errorLens.fontWeight": "bold",
@@ -37,5 +43,10 @@
     "errorLens.messageEnabled": true,
     "errorLens.messageBackgroundMode": "line",
     "errorLens.warningGutterIconColor": "#ff942f",
-    "errorLens.statusBarMessageType": "activeLine"
-}
+    "errorLens.statusBarMessageType": "activeLine",
+    //Material Icon Theme
+    "material-icon-theme.activeIconPack": "react",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.saturation": 0.8,
+    "material-icon-theme.opacity": 0.8,
+  }
