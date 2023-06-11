@@ -16,6 +16,9 @@ module.exports = () => {
       chunkFilename: "static/js/[name].js",
       clean: true,
     },
+    devServer: {
+      historyApiFallback: true,
+    },
     plugins: [
       new HtmlWebpackPlugin({
         template: "./public/index.html",
